@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 96e1ba427a1fe34439583ec006b9bed1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 0ab67326ee4a7411eb7b9daf2f14dd98
+  - enabled: 1
+    path: Assets/Scenes/CharaSelect.unity
+    guid: f3e3f84ac0d40404b9572effae509b36
+  - enabled: 1
+    path: Assets/Scenes/MusicSelect.unity
+    guid: ee3675a54e94d4a71a8b757b7b47ad57
+  - enabled: 1
+    path: Assets/Scenes/LevelScene.unity
+    guid: 2cddc248b131d1a4ea42d657e8971c15
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: c3c6d89d0d055d14f8dd7cf0891db3a6
+  - enabled: 1
+    path: Assets/Scenes/ResultScene_1P.unity
+    guid: 3991f58ee0319b64e818efa73807c8eb
+  - enabled: 1
+    path: Assets/Scenes/ResultScene_2P.unity
+    guid: aa910ea4336947740afc713de3d2790e
+  - enabled: 1
+    path: Assets/Scenes/LicenseScene.unity
+    guid: 916b6419b67654818bce841c4b499e85
+  - enabled: 1
+    path: Assets/Scenes/EndScene.unity
+    guid: 7f0b2d6be06ed6542938d1f95b712b88
+  m_configObjects: {}
