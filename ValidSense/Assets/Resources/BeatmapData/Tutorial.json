@@ -1,0 +1,35 @@
+{
+  "songdata": {
+    "name": "Tutorial",
+    "songnum": 4,
+    "artist": "?",
+    "bpm": 138,
+    "offset": 0,
+    "kiaitime": 10000000
+  },
+  "difflist": {
+    "natural": {
+      "level": -999,
+      "notelist": [
+        { "line": 3, "time": 28589, "type": 0 },
+        { "line": 3, "time": 29458, "type": 0 },
+        { "line": 3, "time": 30328, "type": 0 },
+        { "line": 3, "time": 32067, "type": 0 },
+        { "line": 3, "time": 32937, "type": 0 },
+        { "line": 3, "time": 33806, "type": 0 },
+        { "line": 3, "time": 37284, "type": 2, "endtime": 38154 },
+        { "line": 3, "time": 39023, "type": 2, "endtime": 39893 },
+        { "line": 3, "time": 40763, "type": 2, "endtime": 41632 },
+        { "line": 3, "time": 44241, "type": 2, "endtime": 45110 },
+        { "line": 3, "time": 45980, "type": 2, "endtime": 46850 },
+        { "line": 3, "time": 47719, "type": 2, "endtime": 48589 },
+        { "line": 0, "time": 52937, "type": 3 },
+        { "line": 0, "time": 53806, "type": 3 },
+        { "line": 0, "time": 54676, "type": 3 },
+        { "line": 0, "time": 56415, "type": 3 },
+        { "line": 0, "time": 57284, "type": 3 },
+        { "line": 0, "time": 58154, "type": 3 }
+      ]
+    }
+  }
+}

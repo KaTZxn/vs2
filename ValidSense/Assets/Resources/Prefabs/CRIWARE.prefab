@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8359288826927091072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8359288826927091074}
+  - component: {fileID: 8359288826927091073}
+  - component: {fileID: 8672677123738347528}
+  m_Layer: 0
+  m_Name: CRIWARE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8359288826927091074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359288826927091072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8359288826927091073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359288826927091072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f529aa944b914449d62b8c40f188fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  acfFile: BGMData/BGM.acf
+  cueSheets:
+  - name: BGM
+    acbFile: BGMData/BGMCue.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: CueSheet_Hear
+    acbFile: CharaSound/CueSheet_Hear.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: CueSheet_Sight
+    acbFile: CharaSound/CueSheet_Sight.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: CueSheet_Smell
+    acbFile: CharaSound/CueSheet_Smell.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: CueSheet_Tactile
+    acbFile: CharaSound/CueSheet_Tactile.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: CueSheet_Tactile
+    acbFile: CharaSound/CueSheet_Tactile.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: SECue
+    acbFile: BGMData/SECue.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: PreviewCue
+    acbFile: BGMData/PreviewCue.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: ResultBGM
+    acbFile: BGMData/ResultBGMCue.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: tutorialCue
+    acbFile: BGMData/tutorialCue.acb
+    awbFile: 
+    loaderStatus: 0
+  - name: TitleCue
+    acbFile: BGMData/TitleBGM.acb
+    awbFile: 
+    loaderStatus: 0
+  dspBusSetting: 
+  dontDestroyOnLoad: 1
+  dontRemoveExistsCueSheet: 1
+--- !u!114 &8672677123738347528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359288826927091072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d101735ca454b81843b3be63f0c69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
